@@ -1,10 +1,12 @@
-import { Button } from "@/components/ui/button";
+import Layout from "./components/Layout";
 
 function App() {
   return (
-    <div className="flex min-h-svh flex-col items-center justify-center">
-      <Button>Click me</Button>
-    </div>
+    <Layout>
+      <div className="w-full h-full flex items-center justify-center text-2xl text-gray-400">
+        Main Content
+      </div>
+    </Layout>
   );
 }
 
